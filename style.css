@@ -215,26 +215,49 @@
     height: 20px;
 }
 
-.ex-12-button:hover
+.ex-12-button:hover .ex-12-top-white
 {
-    animation: margin-animation 2s ease-in-out infinite alternate;
+    animation: margin-top-animation 2s linear;
 }
 
-@keyframes margin-animation 
+@keyframes margin-top-animation 
 {
     0% 
     {
-        margin-left: 0;
+        margin-left: 10%;
     }
 
     50% 
     {
-        margin-left: 50px;
+        margin-left: calc(100% - 60px); /*60px is the width of the button*/
     }
 
     100% 
     {
-        margin-left: 0;
+        margin-left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white
+{
+    animation: margin-bottom-animation 2s linear;
+}
+
+@keyframes margin-bottom-animation 
+{
+    0% 
+    {
+        margin-right: 20%;
+    }
+
+    50% 
+    {
+        margin-right: calc(100% - 60px); /*60px is the width of the button*/
+    }
+
+    100% 
+    {
+        margin-right: 20%;
     }
 }
 
@@ -247,4 +270,92 @@
 .ex-13-button:hover
 {
     transition: rotate(360deg);
+}
+
+.ex-13-button:hover .ex-13-top-white
+{
+    animation: margin-top-animation 2s linear;
+}
+
+@keyframes margin-top-animation 
+{
+    0% 
+    {
+        left: 10%;
+        top: -10px;
+    }
+
+    30% 
+    {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+
+    45% 
+    {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+
+    75% 
+    {
+        left: 0;
+        top: 100%;
+    }
+
+    90% 
+    {
+        left: -15px;
+        top: -10px;
+    }
+
+    100% 
+    {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white
+{
+    animation: margin-bottom-animation 2s linear;
+}
+
+@keyframes margin-bottom-animation 
+{
+    0% 
+    {
+        bottom: -10px;
+        right: 20%;
+    }
+
+    30% 
+    {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+
+    45% 
+    {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+
+    75% 
+    {
+        right: 0;
+        bottom: 100%;
+    }
+
+    90% 
+    {
+        right: -15px;
+        bottom: -10px;
+    }
+
+    100% 
+    {
+        bottom: -10px;
+        right: 20%;
+    }
 }

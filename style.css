@@ -217,10 +217,10 @@
 
 .ex-12-button:hover .ex-12-top-white
 {
-    animation: margin-top-animation 2s linear;
+    animation: margin-top-animation-12 2s linear;
 }
 
-@keyframes margin-top-animation 
+@keyframes margin-top-animation-12 
 {
     0% 
     {
@@ -240,10 +240,10 @@
 
 .ex-12-button:hover .ex-12-bottom-white
 {
-    animation: margin-bottom-animation 2s linear;
+    animation: margin-bottom-animation-12 2s linear;
 }
 
-@keyframes margin-bottom-animation 
+@keyframes margin-bottom-animation-12 
 {
     0% 
     {
@@ -274,10 +274,10 @@
 
 .ex-13-button:hover .ex-13-top-white
 {
-    animation: margin-top-animation 2s linear;
+    animation: margin-top-animation-13 2s linear;
 }
 
-@keyframes margin-top-animation 
+@keyframes margin-top-animation-13 
 {
     0% 
     {
@@ -318,10 +318,10 @@
 
 .ex-13-button:hover .ex-13-bottom-white
 {
-    animation: margin-bottom-animation 2s linear;
+    animation: margin-bottom-animation-13 2s linear;
 }
 
-@keyframes margin-bottom-animation 
+@keyframes margin-bottom-animation-13 
 {
     0% 
     {
